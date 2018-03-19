@@ -1,0 +1,15 @@
+package com.slavick;
+
+public class Main {
+
+    public static void main(String[] args) {
+    float usd = 26.350f;
+    float rub =0.440f;
+    float eur =32.300f;
+    int ourcash = 5000;
+    System.out.println( ourcash + " UAH " + "= " + ourcash/usd + "$");
+    System.out.println( ourcash + " UAH " + "= " + ourcash/rub + "\u20BD");
+    System.out.println( ourcash + " UAH " + "= " + ourcash/eur + "€");
+
+    }
+}
